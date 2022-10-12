@@ -1,16 +1,5 @@
-<%@page import="java.util.List"%>
-<%@page import="com.springbook.biz.board.impl.BoardDAO"%>
-<%@page import="com.springbook.biz.board.BoardVO"%>
 <%@page contentType="text/html; charset=UTF-8"%>
-
-<%
-    // 1. 사용자 입력 정보 추출(검색 기능은 나중에 구현)
-    
-    // 2. DB 연동 처리
-    BoardVO vo = new BoardVO();
-    BoardDAO boardDAO = new BoardDAO();
-    List<BoardVO> boardList = boardDAO.getBoardList(vo);
-%>
+<%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -21,7 +10,7 @@
 <body>
     <center>
         <h1>글 목록</h1>
-        <h3>테스트님 환영합니다...<a href="logout_proc.jsp">Log-out</a></h3>
+        <h3>테스트님 환영합니다...<a href="logout.do">Log-out</a></h3>
 
         <!-- 검색 시작 -->
         <form action="getBoardList.jsp" method="post">
@@ -49,16 +38,15 @@
                 <th bgcolor="orange" width="100">조회수</th>
             </tr>
 
-            <% for(BoardVO board : boardList) { %>
+            <c:forEach items="${boardList}" var="board">
             <tr>
-                <td><%= board.getSeq() %></td>
-                <td align="left"><a href="getBoard.jsp?seq=<%= board.getSeq() %>">
-                    <%= board.getTitle() %></a></td>
-                <td><%= board.getWriter() %></td>
-                <td><%= board.getRegDate() %></td>
-                <td><%= board.getCnt() %></td>
+                <td>${board.seq}</td>
+                <td align="left"><a href="getBoard.do?seq=${board.seq}">${board.title}</a></td>
+                <td>${board.writer}</td>
+                <td>${board.regDate}</td>
+                <td>${board.cnt}</td>
             </tr>
-            <% } %>
+            </c:forEach>
         </table>
         <br>
         <a href="insertBoard.jsp">새글 등록</a>
