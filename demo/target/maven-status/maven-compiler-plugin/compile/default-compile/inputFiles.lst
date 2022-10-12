@@ -1,7 +1,6 @@
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/polymorphism/AppleSpeaker.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/ioc/injection/CollectionBean.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/example/controller/HomeController.java
-/Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/controller/ViewResolver.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/board/DeleteBoardController.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/common/LogAdvice.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/polymorphism/TVUser.java
@@ -10,7 +9,6 @@
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/user/UserServiceClient.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/common/AroundAdvice.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/board/InsertBoardController.java
-/Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/controller/HandlerMapping.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/user/LoginController.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/board/BoardVO.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/board/BoardService.java
@@ -19,12 +17,10 @@
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/common/AfterThrowingAdvice.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/board/BoardServiceClient.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/polymorphism/BeanFactory.java
-/Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/controller/DispatcherServlet.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/polymorphism/SamsungTV.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/polymorphism/TV.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/board/impl/BoardRowMapper.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/board/GetBoardController.java
-/Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/controller/Controller.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/ioc/injection/CollectionBeanClient.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/common/PointcutCommon.java
