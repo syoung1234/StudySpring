@@ -32,5 +32,6 @@
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/user/UserService.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/common/JDBCUtil.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/common/AfterAdvice.java
+/Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/view/common/CommonExceptionHandler.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/user/UserVO.java
 /Users/seonyoung/Dev/Spring/BoardWeb/demo/src/main/java/com/springbook/biz/common/AfterReturningAdvice.java

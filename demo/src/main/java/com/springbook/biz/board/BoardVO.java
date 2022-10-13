@@ -2,6 +2,8 @@ package com.springbook.biz.board;
 
 import java.sql.Date;
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class BoardVO {
     private int seq;
     private String title;
@@ -11,6 +13,7 @@ public class BoardVO {
     private int cnt;
     private String searchCondition;
     private String searchKeyword;
+    private MultipartFile uploadFile;
 
     // @ReqeustParam을 사용하기 싫다면 Getter/Setter 메소드를 생성
     public String getSearchCondition() {
@@ -27,6 +30,14 @@ public class BoardVO {
 
     public void setSearchKeyword(String searchKeyword) {
         this.searchKeyword = searchKeyword;
+    }
+
+    public MultipartFile getUploadFile() {
+        return uploadFile;
+    }
+
+    public void setUploadFile(MultipartFile uploadFile) {
+        this.uploadFile = uploadFile;
     }
 
     public int getSeq() {

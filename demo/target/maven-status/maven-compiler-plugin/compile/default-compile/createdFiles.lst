@@ -2,6 +2,7 @@ com/springbook/view/user/LoginController.class
 com/springbook/biz/board/impl/BoardDAO.class
 polymorphism/SonySpeaker.class
 com/springbook/biz/user/UserServiceClient.class
+com/springbook/view/common/CommonExceptionHandler.class
 polymorphism/TV.class
 polymorphism/Speaker.class
 com/springbook/biz/user/UserVO.class
